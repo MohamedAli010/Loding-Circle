@@ -1,0 +1,22 @@
+.loading
+{
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+    border:30px solid #ccc;
+    border-top:30px solid red ;
+    border-right:30px solid green ;
+    border-left:30px solid yellow ;
+    border-bottom:30px solid blue ;
+    margin: 130px auto;
+    animation: moving infinite 2.5s ease-in-out;
+}
+/* Animation */
+@keyframes moving{
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
